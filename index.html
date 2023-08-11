@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recrutamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-bottom: 40px;
+        }	
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .text-box {
+            width: 90%; /* Ajuste a largura da primeira caixa de texto conforme necessário */
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .copy-button {
+            margin-top: 5px;
+            padding: px 6 	0px;
+            font-size: 30px;
+            cursor: pointer;
+            border: 1px solid black; 
+            background-color: #f2f2f2; 
+            border-radius: 3px; 
+            transition: background-color 0.3s ease;
+        }
+
+        .copy-button:hover {
+            background-color: #d3d3d3; 
+        }
+
+        .copiado {
+            background-color: rgb(34, 154, 0); 
+            pointer-events: none;
+        }
+
+        /* Estilo para centralizar os títulos */
+        h1 {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<strong> <h1>Recrutamento</h1>
+	<h2>Como recrutar</h2>
+	<div class="container">
+        <div class="text-box" id="text1">
+1 - Vá para onde os civis ficam, ou seja, na fila de espera. Após chegar lá, informe que você será o responsável pelo recrutamento deles. Após isso, avise que você irá abrir o portão, mas quer que todos vão diretamente para a parede e fiquem em silêncio.
+
+<h2></h2>
+
+2 - A seguir, com todos na parede, utilize a prancheta e clique em "?". Após fazer isso, toque em cada um deles, pela tela. Aparecerá o nome deles, na prancheta, aperte em "Adicionar".
+
+<h2></h2>
+
+3 - Em seguida, use o "Check" e clique em "Pesquisa". Depois disso, escreva as iniciais dos nomes deles, aparecerá o nome completo de cada um. Siga o procedimento com todos. Lembre-se, o "Check" verifica se os mesmos estão em outros grupos militares. Enfim, abata somente aqueles que estiverem em outros grupos militares.
+
+<h2></h2>
+
+4 - No fim das etapas anteriores, mande-os para a linha amarela e oriente que só passaram no monitor, aqueles em que você tocar. Concluindo isso, fique reto e siga os comandos "Fila única!", em sucessão, "PREPARAR PARA MARCHAR!" e "MARCHEM!".
+
+<h2></h2>
+
+5 - Leve-os para a sala de recrutamento e utilize o script de recrutamento. Logo após, vá para onde ficam os parkour's.
+
+
+Observações: você decide como irá aplicar pontos em seu recrutamento, ou seja, você define a quantidade de pontos. E a partir da parte prática, você terá que fazer as coisas por conta própria, poderá montar testes, mas somente baseado naquilo que você passou anteriormente. Você também pode dar pontuação por bom comportamento e pela conduta apropriada durante a execução do recrutamento. Lembre-se, os relatórios de recrutamento só são válidos a partir do ponto que alguém passar no seu recrutamento. Aliás, ensine aos aprovados do seu recrutamento como pedir solicitação ao grupo. Concluindo isso, faça o mesmo que eles e vá ao "Grupo". Haverá uns 3 pontos no canto direito superior, clique e veja as solicitações ao grupo e pesquise pelo nome daqueles que foram aprovados no seu recrutamento.
+        </div>
+	</div>
+<h1> Pontos (Que eu recomendo)</h1>
+	<div class="container">
+        <div class="text-box" id="text2">
+		2 Pontos por Gramática
+		<h3></h3>
+    -0,2 pontos para as primeiras 8 perguntas "Alguma dúvida?" e 0,4 para a última.
+
+<h2></h2>
+2 Pontos pela Prática
+<h3></h3>
+         -1 pela torre
+<h6></h6>
+         -1 pelo parkour
+<h1></h1>
+
+1 Por Comandos Falsos
+<h3></h3>
+         -0,5 por vez
+<h6></h6>
+         -Eu uso as vezes na hora de marchar ou em outras.
+<h1></h1>
+
+1 Pelo texto gramatical
+<h1></h1>
+
+
+Média para passar: 5
+<h5></h5>
+Nota máxima: 6
+		
+	    </div>
+	</div>
+    <div class="container">
+        <div class="text-box" id="text3">
+            Sempre que eu perguntar se há dúvidas, respondam com: "Não, Graduado."/"Sim, Graduado".
+        </div>
+        <button class="copy-button" onclick="copyText('text3')">Copiar</button>
+    </div>
+    <h2>Exemplo: Comandos falsos.</h2>
+    <div class="container">
+        <div class="text-box" id="text4">
+            Exemplo: MARCHEM !; mARCHEM!; S TS!
+        </div>
+        <button class="copy-button" onclick="copyText('text4')">Copiar</button>
+    </div>
+    <h2>Comandos Falsos; Prática</h2>	
+    <div class="container">
+        <div class="text-box" id="text5">
+            MARCHEM PRINCESAS!
+        </div>
+        <button class="copy-button" onclick="copyText('text5')">Copiar</button>
+    </div>
+	<h1></h1>
+    <div class="container">
+        <div class="text-box" id="text6">
+            MARCHEM.
+        </div>
+        <button class="copy-button" onclick="copyText('text6')">Copiar</button>
+    </div>
+    <h2>Comandos de Marcha</h2>
+    <div class="container">
+        <div class="text-box" id="text7">
+            PREPARAR PARA MARCHAR!
+        </div>
+        <button class="copy-button" onclick="copyText('text7')">Copiar</button>
+    </div>
+	<h1></h1>
+    <div class="container">
+        <div class="text-box" id="text8">
+            MARCHEM!
+        </div>
+        <button class="copy-button" onclick="copyText('text8')">Copiar</button>
+    </div>
+	<div class="container">
+        <div class="text-box" id="text9">
+            AUTO!
+        </div>
+        <button class="copy-button" onclick="copyText('text9')">Copiar</button>
+    </div>
+    <h2>Comandos de organização</h2>
+    <div class="container">
+        <div class="text-box" id="text10">
+            STS!
+        </div>
+        <button class="copy-button" onclick="copyText('text10')">Copiar</button>
+    </div>
+	<h1></h1>
+	<h2>Exemplos JJ'S</h2>
+	<div class="container">
+        <div class="text-box" id="text11">
+            UM!
+        </div>
+        <button class="copy-button" onclick="copyText('text11')">Copiar</button>
+    </div>
+	<div class="container">
+        <div class="text-box" id="text12">
+            DOIS!
+        </div>
+        <button class="copy-button" onclick="copyText('text12')">Copiar</button>
+    </div>
+	<div class="container">
+        <div class="text-box" id="text13">
+            TRÊS!
+        </div>
+        <button class="copy-button" onclick="copyText('text13')">Copiar</button>
+    </div>
+	<div class="container">
+        <div class="text-box" id="text14">
+            QUATRO!
+        </div>
+        <button class="copy-button" onclick="copyText('text14')">Copiar</button>
+    </div>
+	<div class="container">
+        <div class="text-box" id="text15">
+            E assim por diante.
+        </div>
+        <button class="copy-button" onclick="copyText('text15')">Copiar</button>
+    </div>
+	<h1>Mande sugestões do que adicionar no perfil do: "breno_0x"/"brunomaster51"</h1>
+</strong>
+    <script>
+        function copyText(textId) {
+            const textBox = document.getElementById(textId);
+            const textToCopy = textBox.innerText;
+
+            const input = document.createElement('input');
+            input.setAttribute('value', textToCopy); // Definindo o valor usando entidades HTML
+            document.body.appendChild(input);
+            input.select();
+
+            try {
+                document.execCommand('copy');
+                const copyButton = textBox.nextElementSibling;
+                copyButton.innerText = 'COPIADO!';
+                copyButton.classList.add('copiado');
+
+                setTimeout(() => {
+                    copyButton.innerText = 'Copiar';
+                    copyButton.classList.remove('copiado');
+                }, 2500);
+            } catch (err) {
+                console.error('Falha ao copiar o texto:', err);
+            } finally {
+                document.body.removeChild(input);
+            }
+        }
+    </script>
+</body>
+</html>
