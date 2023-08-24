@@ -4,4 +4,4 @@ local Options = {
     Language = 'pt-br', 
     Rainbow = true,
 };
-loadstring(game:HttpGet('https://raw.githubusercontent.com/breno0x/breno_0x-recrutamento/725cedd60ea1ea2a46ecf520e7199ecb1f2ff319/whatarrel'))(Options);
+loadstring(game:HttpGet('https://raw.githubusercontent.com/breno0x/breno_0x-recrutamento/0a120688700296ba9d6874c6e168aaf17a9ae017/yeyeyeyeyeyeyeyeasdsaghfffvxcbffaa'))(Options);
