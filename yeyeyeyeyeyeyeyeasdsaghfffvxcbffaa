@@ -34,7 +34,7 @@ local Settings = {
 	Config = {
 		Start = 1,
 		End = nil,
-		Prefix = !,
+		Prefix = nil,
 	}
 }
 
