@@ -33,7 +33,7 @@ local Settings = {
 	Jump = false,
 	Config = {
 		Start = 1,
-		End = idk,
+		End = nil,
 		Prefix = !,
 	}
 }
